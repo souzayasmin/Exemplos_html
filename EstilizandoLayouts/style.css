@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: rgb(249, 255, 185);
+}
+
+header {
+  background-color: rgb(1, 209, 219);
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 100px;
+}
+
+header .logo img {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 60px;
+  padding: 5px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+header .home nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(130, 255, 211);
+  width: 90vw;
+  height: 60px;
+  border-radius: 20px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+#main_div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 15px;
+  padding: 0px 10px;
+}
+
+#secao-1 {
+  flex-grow: initial;
+  border-radius: 10px;
+  padding: 15px;
+  width: 70%;
+  background-color: rgb(185, 255, 230);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#secao-2 {
+  border-radius: 10px;
+  width: 30%;
+  height: 300px;
+  background-color: rgb(185, 255, 230);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  color: white;
+  background-color: rgb(1, 209, 219);
+  width: 100%;
+  height: 65px;
+  border-top: solid 5px rgb(255, 255, 255);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: absolute;
+  bottom: 0;
+}
