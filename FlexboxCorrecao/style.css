@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: Arial, sans;
+}
+
+header {
+  background-color: rgb(200, 200, 200);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  color: aliceblue;
+}
+
+.logo {
+  height: 40px;
+}
+
+header nav {
+  display: flex;
+  gap: 15px;
+}
+
+main {
+  display: flex;
+  gap: 40px;
+  padding: 20px;
+}
+
+.secao1 {
+  width: 70%;
+  background-color: rgb(226, 226, 226);
+  padding: 20px;
+}
+
+.secao2 {
+  padding: 20px;
+  background-color: rgb(226, 226, 226);
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(147, 145, 145);
+  color: white;
+  bottom: 0;
+  position: absolute;
+}
+
+footer p {
+  margin: 5px 0;
+}
